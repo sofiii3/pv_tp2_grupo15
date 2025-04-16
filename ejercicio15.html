@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio_15</title>
+    <script>
+        const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", 
+                       "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+    
+        const numeroMes = prompt("Introduce un número de mes (1 a 12):");
+        const pos = parseInt(numeroMes) - 1;
+    
+        if (pos >= 0 && pos < 12) {
+            alert("El mes es: " + meses[pos]);
+        } else {
+            alert("Número de mes inválido");
+        }
+    </script>
+</head>
+<body>
+    <p>Ejercicio 15</p>
+</body>
+</html>
