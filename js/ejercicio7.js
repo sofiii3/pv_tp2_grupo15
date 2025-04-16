@@ -11,4 +11,4 @@ nombres.forEach((x) => {
     }
 });
 console.log("El nombre con mas caracteres es: "+nombreMaxLenght);
-console.log("Tiene una cantidad de "+maxLenght+" caracteres")
+console.log("Tiene una cantidad de "+maxLenght+" caracteres");
