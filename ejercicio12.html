@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par o Impar</title>
+    <script>
+     
+        const numero = prompt("Por favor, ingresa un número:");
+
+        const numeroConvertido = parseInt(numero);
+
+        const verificarParImpar = (num) => {
+            if (isNaN(num)) {
+                alert("Por favor, ingresa un número válido.");
+            } else {
+                if (num % 2 === 0) {
+                    alert("El número " + num + " es par.");
+                } else {
+                    alert("El número " + num + " es impar.");
+                }
+            }
+        };
+
+        verificarParImpar(numeroConvertido);
+    </script>
+</head>
+<body>
+</body>
+</html>

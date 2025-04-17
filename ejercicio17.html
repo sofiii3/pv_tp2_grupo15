@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contar Letra A</title>
+    <script>
+       
+        const contarLetraA = (texto) => {
+            const textoMinuscula = texto.toLowerCase();
+            let contador = 0;
+
+            for (let i = 0; i < textoMinuscula.length; i++) {
+                if (textoMinuscula[i] === 'a') {
+                    contador++;
+                }
+            }
+            return contador;
+        };
+
+        const ejemploTexto = "Yo lo estaba esperando con una flor Amarilla";
+    
+        const resultado = contarLetraA(ejemploTexto);
+        alert("La letra 'a' aparece " + resultado + " veces en el texto.");
+    </script>
+</head>
+<body>
+</body>
+</html>
