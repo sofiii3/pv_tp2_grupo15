@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f0f0f0;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#MostrarTexto {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 50px;
+    background-color: #ffffff;
+    transition: background-color 0.3s;
+}
